@@ -26,6 +26,8 @@
 ;; <=
 
 ;; **
+;;; Use `Shift+Enter` to evaluate the box above.
+;;; 
 ;;; Every expression in clojure is between two bracket signs. Hence, there is no need for `;` signs to indicate the end of an expression like in java and C++ or a newline like in python. The beginning of an expression is *always* a function. Here is an example in which I am going to use the random number generator from java from within clojure:
 ;;; 
 ;; **
@@ -55,7 +57,7 @@
 ;;; 
 ;;; [Leiningen](http://leiningen.org/) is a clojure scaffolding tool. It automates creation of a project, it downloads all necessary java and clojure libraries (including the clojure jar file itself) needed to run your application. 
 ;;; 
-;;; Go to [leiningen](http://leiningen.org/) project page, download the jar file (you only need one) and put in where you keep your system-wide or userspace jar files. Don't run it just yet.
+;;; Go to [leiningen](http://leiningen.org/) project page, download it (you only need one file) and put in where you keep your system-wide or userspace executable files. Don't run it just yet.
 ;;; 
 ;;; ## Gorilla-REPL
 ;;; 
@@ -99,7 +101,3 @@
 ;; =>
 ;;; {"type":"html","content":"<span class='clj-long'>9</span>","value":"9"}
 ;; <=
-
-;; @@
-
-;; @@
