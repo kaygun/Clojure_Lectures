@@ -44,9 +44,9 @@ for the first lecture. You need to rewrite XXXX as the port number from gorilla-
 
 You can also view these lectures online:
 
-* [Lecture 1][6]
-* [Lecture 2][7]
-* [Lecture 3][8]
+* [Lecture 1][8]
+* [Lecture 2][6]
+* [Lecture 3][7]
 
 You can publish your own clojure/gorilla notebooks online too. For details check out [Gorilla-REPL][5]'s site.
 
@@ -55,6 +55,6 @@ You can publish your own clojure/gorilla notebooks online too. For details check
 [3]: http://github.com
 [4]: http://jupyter.org/
 [5]: http://gorilla-repl.org/viewer.html
+[8]: http://viewer.gorilla-repl.org/view.html?source=github&user=kaygun&repo=Clojure_Lectures&path=Lecture1.clj
 [6]: http://viewer.gorilla-repl.org/view.html?source=github&user=kaygun&repo=Clojure_Lectures&path=Lecture2.clj
 [7]: http://viewer.gorilla-repl.org/view.html?source=github&user=kaygun&repo=Clojure_Lectures&path=Lecture3.clj
-[8]: http://viewer.gorilla-repl.org/view.html?source=github&user=kaygun&repo=Clojure_Lectures&path=Lecture1.clj
