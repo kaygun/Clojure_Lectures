@@ -20,15 +20,12 @@ Go to [leiningen project page][1], download it (you only need one file) and put 
 
 ### Gorilla-REPL
 
-Go find [gorilla-REPL's project page][2] to read more. Clone it into your user directory from [github][3]. In short, run
+[Gorilla-REPL][2] is a notebook interface similar to [jupyter][4]. I prefer gorilla-repl because its installation is simpler than jupyter.  You don't have to do anything to run gorilla-repl. If you already
+cloned this git repository, then just run
 
-      git clone https://github.com/JonyEpsilon/gorilla-repl.git
+      lein gorilla
 
-in where ever you keep your cloned github repositories. Once it is done, cd into it and ru n
-
-      lein run
-
-follow the prompt. You'll see something like
+in your local directory where you cloned this, and follow the prompt. You'll see something like
 
       Gorilla-REPL: develop
       Started nREPL server on port 42290
@@ -46,4 +43,4 @@ for the first lecture. You need to rewrite XXXX as the port number from gorilla-
 [1]: http://leiningen.org/
 [2]: http://gorilla-repl.org/
 [3]: http://github.com
-
+[4]: http://jupyter.org/
