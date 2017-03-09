@@ -154,13 +154,16 @@
 
 ;; @@
 (let [clavier (getInstrument 2 7)]
-  (play clavier (vector [42 250 180] [38 500 200])))
+  (play clavier (vector [42 250 180] [46 500 200] [32 500 220] [32 250 220])))
 ;; @@
+;; ->
+;;; Playing  Clavi
+;;; 
+;; <-
+;; =>
+;;; {"type":"html","content":"<span class='clj-nil'>nil</span>","value":"nil"}
+;; <=
 
 ;; **
-;;; The code above plays 42nd key 250ms with volume 180 followed by the 38th key 500ms with volume 200 on a clavier on channel 2.
+;;; The code above plays 42nd key 250ms with volume 180 followed by the 46th key 500ms with volume 200 etc on a clavier on channel 2.
 ;; **
-
-;; @@
-
-;; @@

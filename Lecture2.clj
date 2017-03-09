@@ -19,7 +19,7 @@
 ;;; 
 ;;; ## Data structures
 ;;; 
-;;; Clojure is a dynamically typed language, or you may even call it untyped because you don't need to declare their types explicitly.
+;;; Clojure is a dynamically typed language, or you may even call it untyped because you don't need to declare types of your variables explicitly.
 ;; **
 
 ;; @@
@@ -233,3 +233,7 @@ a-list
 ;; =>
 ;;; {"type":"html","content":"<span class='clj-long'>3</span>","value":"3"}
 ;; <=
+
+;; @@
+
+;; @@
