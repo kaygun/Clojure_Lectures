@@ -61,26 +61,29 @@
 ;;; 
 ;;; ## Gorilla-REPL
 ;;; 
-;;; Go to [github](http://github.com) and find [gorilla-REPL](https://github.com/JonyEpsilon/gorilla-repl)'s project page. Clone it into your user directory. In other words, run
+;;; [Gorilla-REPL][2] is a notebook interface similar to [jupyter][4]. I prefer gorilla-repl because its insta
+;;; llation is simpler than jupyter.  You don't have to do anything to run gorilla-repl. If you already
+;;; cloned this git repository, then just run
 ;;; 
-;;;      
-;;;           git clone https://github.com/JonyEpsilon/gorilla-repl.git
-;;;     
-;;; in where ever you keep your cloned github repositories. Once it is done, `cd` into it and run
+;;;       lein gorilla
 ;;; 
-;;;           lein run
-;;;           
-;;; follow the prompt. You'll see something like
+;;; in your local directory where you cloned this, and follow the prompt. You'll see something like
 ;;; 
+;;;       Gorilla-REPL: develop
+;;;       Started nREPL server on port 42290
+;;;       Running at http://127.0.0.1:8990/worksheet.html .
+;;;       Ctrl+C to exit.
 ;;; 
-;;;           Gorilla-REPL: develop
-;;;           Started nREPL server on port 42290
-;;;           Running at http://127.0.0.1:8990/worksheet.html .
-;;;           Ctrl+C to exit.
-;;;           
-;;; the actual port number will be different in your case. Point your browser to that URL, and done. You are ready to play with clojure interactively under gorilla-repl.
+;;; the actual port number will be different in your case. Point your browser to that URL, and done. You ar e 
+;;; ready to play with clojure interactively under gorilla-repl.
 ;;; 
 ;;; So, first order of business: download this lecture, and run it. To load a notebook, you are going to need `ctrl-g ctrl-l` and to save a notebook you are going to need `ctrl-g ctrl-s`.
+;;; 
+;;; [1]: http://leiningen.org/
+;;; [2]: http://gorilla-repl.org/
+;;; [3]: http://github.com
+;;; [4]: http://jupyter.org/
+;;; 
 ;;; 
 ;;; ## A first program
 ;;; 
@@ -101,3 +104,7 @@
 ;; =>
 ;;; {"type":"html","content":"<span class='clj-long'>9</span>","value":"9"}
 ;; <=
+
+;; @@
+
+;; @@
