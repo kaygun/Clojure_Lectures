@@ -10,7 +10,7 @@ We are going to need 3 pieces of software:
 * leiningen
 * gorilla-repl
 
-However, items 2 and 3 is enough as you will see:
+However, leiningen is enough as you will see:
 
 ### Leiningen
 
